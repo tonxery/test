@@ -1,2 +1,2 @@
 #!/usr/bin/env python
-echo "hello"
+print("hello world")
