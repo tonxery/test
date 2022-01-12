@@ -1,3 +1,3 @@
 #!/usr/bin/env python
 print("hello world")
-print("master")
+print("master hello world!")
