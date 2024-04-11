@@ -1,7 +1,10 @@
-from math import pow
-import matplotlib.pyplot as plt
-print(pow(2,10))
-plt.plot(range(10))
-a = "Hello World"
-print(a.lower())
-print(a.format())
+from wxpy import *
+bot=Bot(cache_path=True)
+
+@bot.register()
+def recv_send_msg(recv_msg):
+    print('收到的消息：',recv_msg.text) # recv_msg.text取得文本
+    return '自动回复：%s' %recv_msg.text
+
+# 进入Python命令行，让程序保持运行
+embed()
