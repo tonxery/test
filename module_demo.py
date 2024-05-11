@@ -1,7 +1,7 @@
 from datetime import date,time,datetime,timedelta
 print(f"当前片段代码运行所在的命名空间是{__name__}")
 
-#求和
+#求自增和
 def sum_even(n):
     result = 0
     for i in range(0,n,2):
@@ -35,3 +35,6 @@ if __name__ == "__main__":
     demo_str = "2020/9/27 204635"
     demo_dt = datetime.strptime(demo_str,"%Y/%m/%d %H%M%S")
     print(demo_dt,type(demo_dt))
+
+import torch
+torch.onnx.export(model)
