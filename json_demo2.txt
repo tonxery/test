@@ -1,0 +1,14 @@
+{
+    "str": "hello",
+    "int": 1,
+    "float": 0.51,
+    "bool": true,
+    "dict": {
+        "demo": "test"
+    },
+    "list": [
+        1,
+        2,
+        3
+    ]
+}
